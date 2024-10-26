@@ -1,0 +1,16 @@
+.containerHome {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente, caso o conteúdo ocupe alturas diferentes */
+    justify-content: space-between; /* Alinha o texto à esquerda e a imagem à direita */
+    padding: 20px; /* Adicione algum espaçamento ao redor, se necessário */
+}
+
+.textHome {
+    flex: 1;
+    font-size: 1rem; /* Ajuste o tamanho do texto como preferir */
+    padding-right: 20px; /* Espaço entre o texto e a imagem */
+}
+
+.imgHome {
+    width: 300px !important; /* ajuste conforme necessário */
+}
